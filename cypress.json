@@ -1,4 +1,6 @@
 {
   "pluginsFile": false,
-  "supportFile": false
+  "supportFile": false,
+  "fixturesFolder": false,
+  "projectId": "1b7u2t"
 }
