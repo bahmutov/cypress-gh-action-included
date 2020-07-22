@@ -29,7 +29,7 @@ jobs:
 
 ## Local plugins
 
-This repo also shows that you can install additional NPM modules and load them from globally installed Cypress. For example, the tests use [cypress-testing-library](https://github.com/testing-library/cypress-testing-library) and [cypress-terminal-report](https://github.com/archfz/cypress-terminal-report)
+This repo also shows that you can install additional NPM modules and load them from globally installed Cypress. For example, the tests use [cypress-testing-library](https://github.com/testing-library/cypress-testing-library), [cypress-terminal-report](https://github.com/archfz/cypress-terminal-report) and typescript.
 
 ![Terminal logs](images/logs.png)
 
