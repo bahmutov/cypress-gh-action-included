@@ -1,5 +1,5 @@
 # cypress-gh-action-included ![status](https://github.com/bahmutov/cypress-gh-action-included/workflows/included/badge.svg?branch=master)
-> Example showing if we can run [cypress/included Docker image][1] inside GH Actions CI
+> Example showing how to run [cypress/included Docker image][1] inside GH Actions CI
 
 This repository contains the static page [index.html](index.html) tested by Cypress Test Runner in [cypress/integration/spec.js](cypress/integration/spec.js). There is nothing to install or start, how can we run these tests in the simplest way?
 
