@@ -1,0 +1,24 @@
+{
+  "name": "cypress-gh-action-included",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Example showing how to use cypress/included Docker image inside GH Actions CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-gh-action-included.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-gh-action-included/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-gh-action-included#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "6.0.0"
+  }
+}
