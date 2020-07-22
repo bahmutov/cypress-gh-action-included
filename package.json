@@ -20,6 +20,7 @@
   "homepage": "https://github.com/bahmutov/cypress-gh-action-included#readme",
   "devDependencies": {
     "@testing-library/cypress": "6.0.0",
-    "cypress-terminal-report": "1.4.1"
+    "cypress-terminal-report": "1.4.1",
+    "typescript": "3.9.7"
   }
 }
