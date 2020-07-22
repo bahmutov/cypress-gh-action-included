@@ -9,11 +9,14 @@ jobs:
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v1
+
       # normally we would NOT need to install NPM dependencies
       # but in this repo we are using additional plugins listed in package.json
       # thus we need to install them
       - name: Install dependencies 📦
-        run: npm ci
+        # we could simply run "npm ci" but that would not cache dependencies
+        # thus we can use this 3rd party action
+        uses: bahmutov/npm-install@v1
 
       - name: Run tests 🧪
         run: cypress run --record
