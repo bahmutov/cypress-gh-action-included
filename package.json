@@ -5,7 +5,7 @@
   "description": "Example showing how to use cypress/included Docker image inside GH Actions CI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "docker run -it -v $PWD:/test -w /test cypress/included:4.11.0"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/bahmutov/cypress-gh-action-included#readme",
   "devDependencies": {
-    "@testing-library/cypress": "6.0.0"
+    "@testing-library/cypress": "6.0.0",
+    "cypress-terminal-report": "1.4.1"
   }
 }
